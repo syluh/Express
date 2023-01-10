@@ -1,0 +1,12 @@
+html 
+    head
+        title Contactos
+        link(href="estilos.css", rel="stylesheets", type="text/css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+    body 
+        div.container
+            if (contactos != null)
+                each contacto in contactos
+                    div.contacto
+                        p= `${contacto.id_contacto} -- ${contacto.nombre_contacto}`
+    script(src="funciones.js") 

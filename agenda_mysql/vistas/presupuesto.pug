@@ -1,0 +1,101 @@
+html 
+    head
+        title= titulo
+        link(rel="stylesheet", href="../estilos.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+
+    body 
+        div.cabezera
+            button(id="redigirirI") Inicio 
+            button() Presupuesto
+        div.contenedor 
+            div.dominio 
+                hr
+                h1 Opciones de compra de Dominio
+                hr
+                br
+                a(href="https://buy.reinec.com/cart.php?a=add&domain=register" target="_blank") Ecuahosting
+                br
+                br
+                p Ecuahosting es una empresa de hosting web que ofrece servicios de alojamiento web, registro de dominios y servicios de correo electrónico. Si necesitas alojar un sitio web o una aplicación en línea, Ecuahosting podría ser una buena opción para ti. Ofrecen planes de hosting compartido, hosting dedicado y hosting en la nube, entre otros servicios. También ofrecen asistencia técnica y un panel de control intuitivo para gestionar tu hosting. 
+                    strong El precio del dominio sería de 11.99$ al año.
+                br
+                img(src="../dominio1.png" width="600" height="300")
+                br 
+                br
+                a(href="https://daganet.net/comprar-dominio/" target="_blank") Daganet
+                br
+                br
+                p Daganet.net es una empresa ecuatoriana que brinda servicios de Alojamiento Web (Web Hosting). Todos los servicios de Web Hosting son alojados en Servidores Linux con Centos y cPanel. Contamos con planes de Web Hosting en Ecuador desde 2000 MB de espacio y cuentas de correo electrónico ilimitadas. Todos los planes de alojamiento web cuentan con Webmail, soporte para PHP, CGI, FTP, Extensiones de Front Page. Pago en Dólares y Euros.
+                    strong El precio del dominio sería de 15.30$ al año.
+                br
+                img(src="../dominio2.png" width="600" height="300")
+                br 
+                br
+                a(href="https://porkbun.com/" target="_blank") Porkbun
+                br
+                br
+                p Porkbun es una empresa de registro de dominios que ofrece una amplia variedad de extensiones de dominio a precios asequibles. Si necesitas registrar un dominio para tu sitio web o proyecto en línea, Porkbun podría ser una buena opción para ti. Además de ofrecer registro de dominios, Porkbun también ofrece servicios de hosting y correo electrónico.
+                    strong El precio del dominio sería de 9.73$ al año.
+                br
+                img(src="../dominio3.png" width="600" height="300")
+            div.hosting
+                br
+                br
+                hr
+                h1 Opciones de compra de hosting
+                hr
+                br
+                a(href="https://hostpresto.com/nodejs-hosting/#packages" target="_blank") Hostpresto
+                br
+                br
+                p Hostpresto es una empresa de hosting web que ofrece una variedad de servicios de hosting, incluyendo hosting compartido, hosting en la nube, VPS hosting y servidores dedicados. También ofrecen registro de dominios y herramientas para crear sitios web. Hostpresto se especializa en proporcionar opciones de hosting asequibles y tiene una reputación de buen tiempo de actividad y velocidades de carga rápidas. Tienen servidores en varias ubicaciones alrededor del mundo y ofrecen atención al cliente las 24 horas del día, los 7 días de la semana.
+                    strong El precio de un hosting Node1 es 5.00$ el cual es realmente suficiente para este proyecto, tiene una prueba gratuita de 60 días. 
+                br
+                img(src="../hosting2.png" width="450" height="600")
+                br
+                br
+                a(href="https://hostingecuador.ec/proforma-de-servicios" target="_blank") Hostingecuador
+                br
+                br
+                p Hosting Ecuador es una empresa de hosting web basada en Ecuador. Ofrecen planes de hosting compartido, hosting VPS y servidores dedicados a sus clientes. También ofrecen servicios de registro de dominios y diseño web. 
+                    strong Xpress. 500 Mb de espacio y 2 Gb de transferencia por $15 al año más el iva saldría a 16.80$.
+                br
+                img(src="../hosting3.png" width="400" height="400")
+                br
+                br
+                a(href="https://hostingecuador.ec/proforma-de-servicios" target="_blank") EcuaHosting
+                br
+                br
+                p Ecuahosting es una empresa de hosting web que ofrece servicios de alojamiento web, registro de dominios y servicios de correo electrónico. Si necesitas alojar un sitio web o una aplicación en línea, Ecuahosting podría ser una buena opción para ti. Ofrecen planes de hosting compartido, hosting dedicado y hosting en la nube, entre otros servicios. También ofrecen asistencia técnica y un panel de control intuitivo para gestionar tu hosting. 
+                    strong TIene un precio de 29.99$ y viene con caracteristica suficientes para este proyecto
+                br
+                img(src="../hosting4.png" width="400" height="400")
+                br
+                br
+                hr
+                h1 Recomendación para despliegue
+                hr
+                br
+                br
+                p Como el proyecto es realmente sencillo ya que solo es una página principal que con una conexión a una base de datos que en este caso mysql almacena la información de un contacto (nombre y número) recomiendo que para el despliegue de esta app se vaya por la opción mas economica la cual sería comprar el dominio el Porkbun con lo que nos saldría a 9.73$ al año, este dominio nos viene con certificados SSL, privacidad de WHOIS, reenvío de URL y reenvío de correo electrónico, en cambio para el hosting se recomienda comprarlo en Hostpresto especificamente su plan mas economico (NODE 1) el mismo nos cuesta 5$ al mes y nos permite desplegar una app, tiene una unidad de disco duro de 5GB, tiene un CPU spec y nos proporciona 1gb de memoria que es más que suficiente para este proyecto en concreto y la mano de obra a ser un proyecto tan sencillo se cobraría por 250$.
+                br
+                p El costo total saldría de: 9.73$ + 250$ + 5$ = 264.73$ para poner en marcha a la aplicación web. Con un mantenimiento mensual de 5$ y un mantenimiento anual de 9.73$ por la renovación del hosting y del dominio respectivamente.
+                br
+                p Todas estas recomendaciones sirven para una aplicación creada en Express.js basado en node.js.
+                br
+                img(src="../node.png" width="200" height="150")
+        footer
+            div.pie
+                a(href='#')
+                    i.fa.fa-facebook-square
+                a(href='#')
+                    i.fa.fa-twitter-square
+                a(href='#')
+                    i.fa.fa-instagram
+                a(href='#')
+                    i.fa.fa-youtube-square
+            p Copyright 2023 -- Víctor Carrión
+
+    script(src="../funcionesPresupuesto.js") 

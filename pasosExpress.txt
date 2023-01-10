@@ -1,0 +1,71 @@
+Herramientas a utilizar 
+* CMD
+* Visual Studio Code 
+* Navegador
+
+PASOS
+1-   Verificar si tiene instalado Nodej en su maquina caso contrario instalarlo
+ 		node --version
+		npm --version
+https://nodejs.org/en/download/
+					
+2-   Crear carpeta en escritorio 
+		 agenda_express 
+3-   Abrir carpeta en Visual y abrir terminal
+4-   Crea packacge.json
+		 npm init -yes 
+5-   Instalar en proyecto 
+		 npm i 
+		 npm i express 
+		 npm i nodemon 
+		 npm i mysql 
+		 npm i pug 
+6 Crear carpetas
+		<< vistas >>
+		<< src >>
+		<< css >>
+7- Editar package json linea 6-9 
+            "type": "module",
+	      "dev": "nodemon index.js"
+
+CREAR EL SERVIDOR EXPRESS
+
+8- Crear archivo
+		 index.js 
+9- Crear maquetado de pagina con PUG en vistas
+		 index.pug 
+
+CREAR CONEXION A BASE DE DATOS
+
+10- Crear archivo en SRC
+		mysql_connector.js 
+11- Crear archivo en SRC
+		funciones.js 
+13- Crear archivo CSS
+		style.css
+14. Empezamos a escribir codigo con express
+	Importamos Express//require('express') o import
+	Iniciamos Express
+	Iniciamos servidor
+	Configuramos para que las view sean desde el archivo vistas y la extencion sea de pug
+	Configuramos los archivos estaticos
+	Obtenemos una ruta mostramos un mensaje con res.send('mensaje')
+	Se le puede mandar un archivo html
+15. Trabajamos con express con una base de datos de mysql
+En el archivo mysql_connector:
+	importar el paquete de mysql
+	crear la coneccio con mysql.createConnection(host,user,password,database)
+	se guarda en una constante las consultas sql que se desea obtener
+	para este caso se van a crear 2 constante 1 guardara los contactos a consultar y la otra un insert para agregar contactos
+Luego en el archivo funciones.js
+	se guarda las funciones y las variables que se realiza en los archivos .pug que se va a realizar si se presiona y se redirecciona a una ruta
+16. Por ultimo se crea las rutas faltantes que permitiran que se guarde los datos mediante params y se muestre los datos desde la db
+
+
+	
+
+
+	
+	
+                                       
+     

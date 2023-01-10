@@ -1,0 +1,29 @@
+html 
+    head
+        title= titulo
+        link(rel="stylesheet", href="estilos.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+
+    body 
+        div.cabezera
+            button() Inicio 
+            button(id="redigirirP") Presupuesto
+        div.container
+            input(type="text" class="redondeado" placeholder="Nombre" id="nombre")
+            input(type="text" class="redondeado" placeholder="Número" id="numero")
+            button(id="btn_agregar") Agregar contacto
+            button(id="btn_mostrar") Mostrar contactos
+        footer
+            div.pie
+                a(href='#')
+                    i.fa.fa-facebook-square
+                a(href='#')
+                    i.fa.fa-twitter-square
+                a(href='#')
+                    i.fa.fa-instagram
+                a(href='#')
+                    i.fa.fa-youtube-square
+            p Copyright 2023 -- Víctor Carrión
+
+    script(src="funciones.js") 

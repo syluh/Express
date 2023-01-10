@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffc765;
+    color:white
+}
+.cabezera{
+    display: flex;
+    margin-left: 1100px;
+}   
+a {
+    color: #733a2b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #db894d;
+    text-decoration: underline;
+  } 
+.container{
+    width:70vw;
+    height:59.5vh;
+    margin:2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    width:80vw;
+    margin:2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+input, button{
+    margin: 1rem 0rem;
+    line-height:1.8rem
+}
+.redondeado {
+    border-radius: 5px;
+  }
+button{
+    background-color: #db894d;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.contacto{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.contacto p{
+    flex:8;
+}
+.contacto span{
+    flex:1;
+    color:tomato;
+    cursor: pointer;
+}
+img {
+    display: block; /* Esto hace que la imagen ocupe todo el ancho disponible */
+    margin: 0 auto; /* Esto centra la imagen horizontalmente */
+  }
+  h1 {
+    
+    color: #733a2b; 
+    text-align: center; /* Esto centra el encabezado horizontalmente */
+  }
+  p {
+    text-align: justify;
+    color: black; 
+  }
+  footer{
+    padding: 20;
+    background-color: #552621;
+  } 
+  footer p {
+    text-align: center;
+    color: white; 
+  }
+footer .pie a{
+  text-align: center;
+  margin: 0 9px;
+}
+footer .pie {
+  text-align: center;
+  margin:0 auto;
+}
+hr{
+  color:#552621 ;
+}
